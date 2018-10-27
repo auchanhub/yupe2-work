@@ -1,0 +1,22 @@
+{
+    "name": "omg/work",
+    "description": "Work module for yupe2",
+    "type": "yupe2-plugin",
+    "keywords": ["yupe2","omg","work"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "OMG",
+            "email": "box@omg.im"
+        }
+    ],
+    "require": {
+        "yupe/yupe2-platform": "*",
+        "yupe/yupe2-widgets": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "omg\\work\\": ""
+        }
+    }
+}
